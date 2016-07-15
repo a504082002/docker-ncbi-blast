@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM ubuntu:16.04
 
 MAINTAINER a504082002 <a504082002@gmail.com>
 
