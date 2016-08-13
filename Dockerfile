@@ -7,5 +7,7 @@ RUN apt-get update -qq && \
 						ncbi-blast+ && \
 	rm -rf /var/lib/apt/lists/*
 
+ADD batch.py /program/batch.py
+
 WORKDIR /data
 CMD ["bash"]
